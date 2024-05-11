@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/visu-web/static/css/main.ec089b8e.css",
+    "main.js": "/visu-web/static/js/main.767dc191.js",
+    "static/media/JamesBondVideo.mp4": "/visu-web/static/media/JamesBondVideo.489897b9a3d757001c5c.mp4",
+    "static/media/BondBanner.jpg": "/visu-web/static/media/BondBanner.ff5471ed3229c77d180b.jpg",
+    "static/media/triumph.jpg": "/visu-web/static/media/triumph.0178f9e25bb21fd5c9e6.jpg",
+    "static/media/Lotus.jpeg": "/visu-web/static/media/Lotus.8509b1443e6963976dac.jpeg",
+    "static/media/Quantum.jpeg": "/visu-web/static/media/Quantum.4c7d132a82a3dda466e3.jpeg",
+    "static/media/tiger900.jpg": "/visu-web/static/media/tiger900.0464180587f4d1af7366.jpg",
+    "static/media/utstillingNotime.jpg": "/visu-web/static/media/utstillingNotime.a81a735a86a37852ad4d.jpg",
+    "static/media/BMW_1200C.jpg": "/visu-web/static/media/BMW_1200C.e35bf52be835d3b27f65.jpg",
+    "static/media/007musem-map.jpg": "/visu-web/static/media/007musem-map.de7366ed4c2fd5577baf.jpg",
+    "static/media/NotimeBond.jpg": "/visu-web/static/media/NotimeBond.28e549a0856d17dbae15.jpg",
+    "static/media/omega_spectre_007museum.jpg": "/visu-web/static/media/omega_spectre_007museum.04273389e0c8c13b332c.jpg",
+    "static/media/astonMartin2.jpg": "/visu-web/static/media/astonMartin2.482d80fa2c0616e720a0.jpg",
+    "static/media/CasinoRoyale007.jpg": "/visu-web/static/media/CasinoRoyale007.a91682447236b0096f41.jpg",
+    "static/media/JaguarEtype.jpg": "/visu-web/static/media/JaguarEtype.9cef1e511adb488abf2c.jpg",
+    "static/media/spectreBond.jpg": "/visu-web/static/media/spectreBond.85513bb9de78c2f89464.jpg",
+    "static/media/bond_warwick_hover.jpg": "/visu-web/static/media/bond_warwick_hover.fdb93fb4bcf9e364b0c3.jpg",
+    "static/media/oscar_statue007.jpg": "/visu-web/static/media/oscar_statue007.b3f1ba65bc7ebc98cf5c.jpg",
+    "static/media/AstonmartinLogo.jpg": "/visu-web/static/media/AstonmartinLogo.35f53d24f63f62b1d2c2.jpg",
+    "index.html": "/visu-web/index.html",
+    "main.ec089b8e.css.map": "/visu-web/static/css/main.ec089b8e.css.map",
+    "main.767dc191.js.map": "/visu-web/static/js/main.767dc191.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec089b8e.css",
+    "static/js/main.767dc191.js"
+  ]
+}
