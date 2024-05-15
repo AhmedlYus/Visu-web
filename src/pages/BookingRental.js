@@ -2,49 +2,52 @@ import React from 'react'
 
 function BookingRental() {
   return (
-    <div className="form-container">
-      <form>
-        <div><h1>Rent Aston Martin</h1></div>
-        <div className="prices-text">
-          <h3>prices</h3>
-          <h5>Starting price - 3000kr</h5>
-          <h5>Hourly price - 1500kr</h5>
-        
-        </div>
-        <div className="form-row">
-        </div>
-        <div className="form-group">
-            <label htmlFor="email">Name:</label>
-            <input
-              type="name"
-              id="name"
-            />
-          </div>
-          <div className="form-group">
-            <label htmlFor="email">Email:</label>
-            <input
-              type="email"
-              id="email"
-            />
-          </div>
-          <div className="form-group">
-            <label htmlFor="phone">Phone:</label>
-            <input
-              type="tel"
-              id="phone"
-            />
-          </div>
-        <div className="form-row">
-          <div className="form-group">
-            <label htmlFor="date">Date:</label>
-            <input
-              type="date"
-              id="date"
-            />
+    <div className="container">
+      <span className="big-circle"></span>
+      <div className="form">
+        <div className="contact-info">
+          <p className="text">
+            Aston Martin prices
+          </p>
+
+          <div className="info">
+            <div className="information">
+              <i className="fas fa-map-marker-alt"></i>
+              <p>Starting / Minimum price : 3000SEK</p>
+            </div>
+            <div className="information">
+              <i className="fas fa-envelope"></i>
+              <p>Hourly prices 1500SEK </p>
+            </div>
+            <div className="information">
+              <i className="fas fa-phone"></i>
+              <p>Wine and champaige tasting +18 <br></br> 
+              Booking only through reception desk </p>
+              
+            </div>
           </div>
         </div>
-        <button type="submit">Submit</button>
-      </form>
+
+        <div className="contact-form">
+          <span className="circle one"></span>
+          <span className="circle two"></span>
+
+          <form action="index.html" autoComplete="off">
+            <h3 className="title">Book rental</h3>
+            <div className="input-container">
+            <input type="date" id="date" name="date" className="input" />
+            </div>
+            <div className="input-container">
+              <input type="text" name="name" className="input" placeholder="Name" />
+            </div>
+            <div className="input-container">
+              <input type="email" name="email" className="input" placeholder="Email" />
+            </div>
+            
+            <input type="submit" value="Send" className="btn" />
+          </form>
+        </div>
+      </div>
     </div>
   );
 }

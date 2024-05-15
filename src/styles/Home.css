@@ -29,12 +29,72 @@
 .grid-container {
   display: flex;
   flex-direction: row;
+  position: relative;
+  gap: 8%;
 }
 
 .card-banner {
   flex: 1;
 }
 
-.text {
-  flex: 1;
+.Fillers {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-right: 20px; 
+}
+
+.Fillers h3,
+.Fillers p {
+  margin-bottom: 10px; 
+}
+
+.Fillers a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; 
+}
+
+.Fillers a button {
+  background-color: white;
+  color: black; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Fillers a button:hover {
+  background-color: #f0f0f0; /* Change background color on hover */
+}
+
+/* Vertical line */
+.grid-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 2px; /* Width of the vertical line */
+  height: 100%;
+  background-color: #ccc; /* Color of the vertical line */
+  z-index: -1; /* Ensure the line is behind the content */
+}
+
+/* Add this media query at the end of your CSS file */
+@media (max-width: 991px) {
+  .grid-container::before {
+    display: none;
+  }
+
+  /* Adjust layout for BannerTime content */
+  .movie-list {
+    flex-direction: column;
+  }
+
+  .card-banner {
+    margin-bottom: 20px; /* Add some spacing between BannerTime components */
+  }
 }

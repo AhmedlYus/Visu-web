@@ -25,7 +25,7 @@ const Exhibitions = () => {
       title: "Spectre",
       text: "Bond unravels spectre",
       exhibitionArea: "Area 5", 
-      bookNowLink: "#",
+      bookNowLink: "/exhibitions/spectre",
       image: spectreBond,
       backgroundColor: "#002c3d",
     }

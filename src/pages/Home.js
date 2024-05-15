@@ -1,54 +1,45 @@
 import React from 'react';
 import '../styles/Home.css';
-import noTimeBond from '../assets/NotimeBond.jpg';
-import spectreBond from '../assets/spectreBond.jpg'; 
 import HeroSection from '../pages/HomeHero';
 import SignupBanner from '../components/SignupBanner';
-import CardBanners from '../components/testbanners';
+import BannerTime from '../components/Bannertimeline';
 import Collections from '../components/Collections';
 import hovercraft from '../assets/bond_warwick_hover.jpg';
 import oscarStatue from '../assets/oscar_statue007.jpg';
 import watches from '../assets/omega_spectre_007museum.jpg';
-import casinoroyale2008 from '../assets/CasinoRoyale007.jpg';
-import Quantum from '../assets/Quantum.jpeg';
-
+import jbNotime from '../assets/BondalternateNotime.jpg';
+import QOposter from '../assets/QOSposter.jpg';
+import spectrebanner from '../assets/007dotcom-Poster-Spectre.webp';
+import casinoroyal from '../assets/1366_2000.jpg';
 
 
 const Home = () => {
   const cards = [
     {
-      title: "No time to die",
-      text: "Bonds final mission",
-      exhibitionArea: "Area 5",
-      bookNowLink: "/Notime",
-      image: noTimeBond,
+      bookNowLink: "/exhibitions/notime",
+      image: jbNotime,
       backgroundColor: "#1f5260",
     },
   ];
   const cards2 = [
     {
-      title: "Spectre",
-      text: "Bond unravels spectre",
-      bookNowLink: "#",
-      image: spectreBond,
+
+      bookNowLink: "/exhibitions/spectre",
+      image: spectrebanner,
       backgroundColor: "#002c3d",
     },
   ];
   const cards3 = [
     {
-      title: "Casino Royale",
-      text: "Rent the spectacular Aston Martin, ",
-      bookNowLink: "#",
-      image: casinoroyale2008,
+      bookNowLink: "/exhibitions/Casino-royale",
+      image: casinoroyal,
       backgroundColor: "#002c3d",
     },
   ];
   const cards4 = [
     {
-      title: "Quantum of Solace",
-      text: "Rent the spectacular Aston Martin, ",
-      bookNowLink: "#",
-      image: Quantum,
+      bookNowLink: "/exhibitions/solace",
+      image: QOposter,
       backgroundColor: "#656465",
     },
   ];
@@ -84,36 +75,64 @@ const Home = () => {
         </div>
         <div className="grid-container">
         <div className="card-banner">
-            <CardBanners cards={cards} />
+            <BannerTime cards={cards} />
         </div>
-        <div className="text">
-            <h3>Visit the Museum</h3>
-        </div>
-    </div>
-    <div style={{ margin: '20px 0' }}></div>
-    <div className="grid-container">
-        <div className="text">
-            <h3>Visit the Museum</h3>
-        </div>
-        <div className="card-banner">
-            <CardBanners cards={cards2} />
+        <div className="Fillers">
+            <h3>Released 2021</h3>
+            <p> As Daniel Craig's nearly two decades era 
+              as James Bond closes its chapter. <br></br>
+              Agent 007 venture on his final mission
+              see cars, bikes and spy gadgets used <br></br>
+            in the movie on display in 007 Museum 
+            this is the end to Daniel Craig era</p>
+            <a href="/exhibitions/notime"><button >See more</button></a>
         </div>
     </div>
     <div style={{ margin: '20px 0' }}></div>
     <div className="grid-container">
-        <div className="card-banner">
-            <CardBanners cards={cards3} />
+        <div className="Fillers">
+            <h3>Released 2015</h3>
+            <p> As Daniel Craig's nearly two decades era 
+              as James Bond closes its chapter. <br></br>
+              Agent 007 venture on his final mission
+              see cars, bikes and spy gadgets used <br></br>
+            in the movie on display in 007 Museum 
+            this is the end to Daniel Craig era</p>
+            <a href="/exhibitions/spectre"><button >See more</button></a>
         </div>
-        <div className="text">
-            <h3>Visit the Museum</h3>
+        <div className="card-banner">
+            <BannerTime cards={cards2} />
+        </div>
+    </div>
+    <div style={{ margin: '20px 0' }}></div>
+    <div className="grid-container">
+        <div className="card-banner">
+            <BannerTime cards={cards4} />
+        </div>
+        <div className="Fillers">
+            <h3>Released 2008</h3>
+            <p> As Daniel Craig's nearly two decades era 
+              as James Bond closes its chapter. <br></br>
+              Agent 007 venture on his final mission
+              see cars, bikes and spy gadgets used <br></br>
+            in the movie on display in 007 Museum 
+            this is the end to Daniel Craig era</p>
+            <a href="/exhibitions/Casino-royale"><button >See more</button></a>
         </div>
     </div>
     <div className="grid-container">
-        <div className="text">
-            <h3>Visit the Museum</h3>
+        <div className="Fillers">
+            <h3>Released 2006</h3>
+            <p> As Daniel Craig's nearly two decades era 
+              as James Bond closes its chapter. <br></br>
+              Agent 007 venture on his final mission
+              see cars, bikes and spy gadgets used <br></br>
+            in the movie on display in 007 Museum 
+            this is the end to Daniel Craig era</p>
+            <a href="/exhibitions/solace"><button >See more</button></a>
         </div>
         <div className="card-banner">
-            <CardBanners cards={cards4} />
+            <BannerTime cards={cards3} />
         </div>
     </div>
         <SignupBanner/>
