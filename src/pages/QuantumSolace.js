@@ -1,5 +1,5 @@
 import React from 'react'
-import utstillingNo from '../assets/utstillingNotime.jpg';
+import utstillingNo from '../assets/wave1_5.jpg';
 import '../styles/Notime.css';
 
 
@@ -17,10 +17,10 @@ function QuantumofSol() {
           <p>Quantum of Solace was made in 2008, this time Agent Bond is tasked with
             taking down a evil multi billionre network.
           </p>
-          <p>For the release of the movie the 007 museum has 
-            acquired props and objects used in the movie on display.</p>
+          <p>The museum has the quantum of solace game visitors can play aswell
+            acquired special edition watches and objects used in the movie on display.</p>
 
-            <button className='button'>Book tickets now</button>
+            <a href="/booking/tickets" className="sfc-button"><button >Book tickets</button></a>
         </div>
       </div>
     </div>

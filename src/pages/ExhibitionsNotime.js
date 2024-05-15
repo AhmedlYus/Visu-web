@@ -20,7 +20,7 @@ function ExhibitionsNotime() {
           <p>For the release of the movie the 007 museum has 
             acquired props and objects used in the movie</p>
 
-            <button className='button'>Book tickets now</button>
+            <a href="/booking/tickets" className="sfc-button"><button >Book tickets</button></a>
         </div>
       </div>
     </div>

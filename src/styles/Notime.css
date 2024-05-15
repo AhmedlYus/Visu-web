@@ -1,31 +1,25 @@
 .utstilling-container {
   display: flex;
   align-items: center;
-  margin: 5%;
+
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
-.utstilling-img {
-  flex: 1; 
+.utstilling-img img{
+  flex: 1;
+  max-width: 90%;
   display: flex;
-  flex-direction: row; /* Change from column to row */
+  justify-content: center; /* Center the image horizontally */
 }
 
-.VantageCar {
-  max-width: 50%;
-  height: 40%;
-}
-
-.Clock {
-  width: 50%;
-  height: auto;
-  margin-right: 2%;
-}
 
 .text-container {
   flex: 1; /* Allow the text container to grow and shrink */
   color: white;
   margin-left: 1%;
-  max-width: 500px; /* Set a maximum width */
+  margin-right: 5%; /* Increase margin to provide more space for the text */
   padding: 20px; /* Add padding to create space */
 }
 
@@ -35,31 +29,26 @@
 
 .text-container p {
   margin-bottom: 10px;
+  text-align: left;
 }
-@media screen and (max-width: 981px) {
-  /* CSS rules for screens with a width of 981px or less */
-  /* For example: */
-  .utstilling-container {
-    margin: 2%;
-  }
-  
-  .utstilling-img {
-    flex-direction: column;
-  }
-  
-  .VantageCar {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .Clock {
-    width: 100%;
-    height: auto;
-    margin-right: 0;
-  }
-  
-  .text-container {
-    margin-left: 0;
-    padding: 10px;
-  }
+
+.text-container button {
+  background-color: white;
+  color: black; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  border: 2px solid black; /* Add a border to resemble a button */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.text-container button:hover {
+  background-color: #222831; /* Darken button background color on hover */
+  color: white; /* Change text color on hover */
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+.text-container button:focus {
+  outline: none; /* Remove outline when focused */
 }

@@ -15,10 +15,10 @@ function ExhibitionsSpectre() {
           <h2>Spectre</h2>
             </div>
           <p>Spectre was released in 2015, featuring <br></br>Daniel Craig as James Bond, in an epic
-            time battle against the sinister secret organisation known as Spectre.
+            time battle <br></br> against the sinister secret organisation known as Spectre.
           </p>
           
-            <button className='button'>Book tickets now</button>
+          <a href="/booking/tickets" className="homepage-button"><button >Book tickets</button></a>
         </div>
       </div>
     </div>

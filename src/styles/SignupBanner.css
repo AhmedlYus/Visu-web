@@ -49,3 +49,10 @@
 .newsletterForm input[type='text']:focus{
     transform: scale(1.10);
   }
+  .newsletter-text {
+    position: absolute;
+    top: 10%; /* Adjust top position to move the text down from the top */
+    right: 3%; /* Position the text in the right top corner */
+    color: black; /* Set text color */
+    z-index: 1; /* Ensure text is above the image */
+  }

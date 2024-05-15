@@ -8,7 +8,6 @@ function CasinoRoyale() {
       <div className='utstilling-container'>
         <div className='utstilling-img'>
           <img src={CasinoOmega} className='Clock' alt='Clock'/>
-          <img src={astonVantage} className='VantageCar' alt='VantageCar'/>
         </div>
         <div className='text-container'>
           <div className='heading-text'>
@@ -23,7 +22,7 @@ function CasinoRoyale() {
             including collector watches from OMEGA, and rental of the Aston Martin DBS used in the movie
           </p>
 
-            <button className='button'>Book tickets now</button>
+          <a href="/booking/tickets" className="sfc-button"><button >Book tickets</button></a>
         </div>
       </div>
     </div>

@@ -81,24 +81,22 @@ const Home = () => {
             <h3>Released 2021</h3>
             <p> As Daniel Craig's nearly two decades era 
               as James Bond closes its chapter. <br></br>
-              Agent 007 venture on his final mission
-              see cars, bikes and spy gadgets used <br></br>
+              Agent 007 venture on his final mission.
+              see cars bikes and spy gadgets used <br></br>
             in the movie on display in 007 Museum 
             this is the end to Daniel Craig era</p>
-            <a href="/exhibitions/notime"><button >See more</button></a>
+            <a href="/exhibitions/notime" className="homepage-button"><button >See more</button></a>
         </div>
     </div>
     <div style={{ margin: '20px 0' }}></div>
     <div className="grid-container">
         <div className="Fillers">
             <h3>Released 2015</h3>
-            <p> As Daniel Craig's nearly two decades era 
-              as James Bond closes its chapter. <br></br>
-              Agent 007 venture on his final mission
-              see cars, bikes and spy gadgets used <br></br>
-            in the movie on display in 007 Museum 
-            this is the end to Daniel Craig era</p>
-            <a href="/exhibitions/spectre"><button >See more</button></a>
+            <p> Bond unravels spectre with a new new action<br></br>
+            As always 007 Museum have aquired objects from the movie <br></br>
+            On this display</p>
+            
+            <a href="/exhibitions/spectre" className="homepage-button"><button >See more</button></a>
         </div>
         <div className="card-banner">
             <BannerTime cards={cards2} />
@@ -117,19 +115,18 @@ const Home = () => {
               see cars, bikes and spy gadgets used <br></br>
             in the movie on display in 007 Museum 
             this is the end to Daniel Craig era</p>
-            <a href="/exhibitions/Casino-royale"><button >See more</button></a>
+            <a href="/exhibitions/solace" className="homepage-button"><button >See more</button></a>
         </div>
     </div>
     <div className="grid-container">
         <div className="Fillers">
             <h3>Released 2006</h3>
-            <p> As Daniel Craig's nearly two decades era 
-              as James Bond closes its chapter. <br></br>
-              Agent 007 venture on his final mission
-              see cars, bikes and spy gadgets used <br></br>
-            in the movie on display in 007 Museum 
-            this is the end to Daniel Craig era</p>
-            <a href="/exhibitions/solace"><button >See more</button></a>
+            <p> Casino royale brings excitment 
+              marking Daniel Craigs first start as Agent 007 <br></br>
+              the museum has collection watches, and the infamous
+              aston martin DBS vantage <br></br>available for rental can be
+               found under Bookings/rental  </p>
+            <a href="/exhibitions/Casino-royale" className="homepage-button"><button >See more</button></a>
         </div>
         <div className="card-banner">
             <BannerTime cards={cards3} />
