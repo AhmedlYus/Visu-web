@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/visu-web/static/css/main.0e4380fa.css",
+    "main.js": "/visu-web/static/js/main.61cbda75.js",
+    "static/media/JamesBondVideo.mp4": "/visu-web/static/media/JamesBondVideo.489897b9a3d757001c5c.mp4",
+    "static/media/BondBanner.jpg": "/visu-web/static/media/BondBanner.ff5471ed3229c77d180b.jpg",
+    "static/media/QOSposter.jpg": "/visu-web/static/media/QOSposter.ba42e5d88dbee7d45a24.jpg",
+    "static/media/triumph.jpg": "/visu-web/static/media/triumph.0178f9e25bb21fd5c9e6.jpg",
+    "static/media/007dotcom-Poster-Spectre.webp": "/visu-web/static/media/007dotcom-Poster-Spectre.e116db1c25f2f5da06fa.webp",
+    "static/media/Lotus.jpeg": "/visu-web/static/media/Lotus.8509b1443e6963976dac.jpeg",
+    "static/media/tiger900.jpg": "/visu-web/static/media/tiger900.0464180587f4d1af7366.jpg",
+    "static/media/BondalternateNotime.jpg": "/visu-web/static/media/BondalternateNotime.94c789b7b996d2962bdc.jpg",
+    "static/media/OmegaRoyale.jpeg": "/visu-web/static/media/OmegaRoyale.375d396f76e5f3c90159.jpeg",
+    "static/media/utstillingNotime.jpg": "/visu-web/static/media/utstillingNotime.a81a735a86a37852ad4d.jpg",
+    "static/media/wave1_5.jpg": "/visu-web/static/media/wave1_5.09be2fa09ed30c387e51.jpg",
+    "static/media/BMW_1200C.jpg": "/visu-web/static/media/BMW_1200C.e35bf52be835d3b27f65.jpg",
+    "static/media/007musem-map.jpg": "/visu-web/static/media/007musem-map.de7366ed4c2fd5577baf.jpg",
+    "static/media/NotimeBond.jpg": "/visu-web/static/media/NotimeBond.28e549a0856d17dbae15.jpg",
+    "static/media/bondgunn.jpg": "/visu-web/static/media/bondgunn.1213371d36f60c53892c.jpg",
+    "static/media/omega_spectre_007museum.jpg": "/visu-web/static/media/omega_spectre_007museum.04273389e0c8c13b332c.jpg",
+    "static/media/astonMartin2.jpg": "/visu-web/static/media/astonMartin2.482d80fa2c0616e720a0.jpg",
+    "static/media/1366_2000.jpg": "/visu-web/static/media/1366_2000.2fec1de272d3768597d3.jpg",
+    "static/media/JaguarEtype.jpg": "/visu-web/static/media/JaguarEtype.9cef1e511adb488abf2c.jpg",
+    "static/media/spectreBond.jpg": "/visu-web/static/media/spectreBond.85513bb9de78c2f89464.jpg",
+    "static/media/bond_warwick_hover.jpg": "/visu-web/static/media/bond_warwick_hover.fdb93fb4bcf9e364b0c3.jpg",
+    "static/media/oscar_statue007.jpg": "/visu-web/static/media/oscar_statue007.b3f1ba65bc7ebc98cf5c.jpg",
+    "static/media/AstonmartinLogo.jpg": "/visu-web/static/media/AstonmartinLogo.35f53d24f63f62b1d2c2.jpg",
+    "index.html": "/visu-web/index.html",
+    "main.0e4380fa.css.map": "/visu-web/static/css/main.0e4380fa.css.map",
+    "main.61cbda75.js.map": "/visu-web/static/js/main.61cbda75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e4380fa.css",
+    "static/js/main.61cbda75.js"
+  ]
+}
