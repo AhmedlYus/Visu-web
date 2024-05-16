@@ -21,7 +21,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="/Visu-web" element={<Home />} />
           <Route path="/exhibitions" element={<Exhibitions />} />
           <Route path="/exhibitions/notime" element={<ExhibitionsNotime />} />
           <Route path="/exhibitions/spectre" element={<ExhibitionsSpectre />} />
