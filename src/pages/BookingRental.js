@@ -1,8 +1,10 @@
 import React from 'react'
+import '../styles/BookingSite.css';
+
 
 function BookingRental() {
   return (
-    <div className="container">
+    <div className="booking-container">
       <span className="big-circle"></span>
       <div className="form">
         <div className="contact-info">

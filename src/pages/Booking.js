@@ -19,7 +19,7 @@ function Booking() {
       exhibitionArea: "", 
       bookNowLink: "/booking/rental",
       image: logoAston,
-      backgroundColor: "#002c3d",
+      backgroundColor: "#2b4e48",
     }
   ];
   return(
