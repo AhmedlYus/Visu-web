@@ -52,19 +52,19 @@
 }
 
 .navbar .rightSide a::after {
-    content: '';
-    position: absolute;
-    bottom: -3px; 
-    left: 0;
-    width: 0; 
-    height: 2px; 
-    background-color: white;
-    transition: width 0.3s ease; 
-
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease, transform 0.3s ease; /* Add transition for smoother animation */
 }
 
 .navbar .rightSide a:hover::after {
-    width: 100%; 
+  width: 100%;
+  transform: translateX; /* Slide the underscore to the left */
 }
 .navbar .rightSide button {
     background-color: transparent;
@@ -96,6 +96,37 @@
   .navbar #close .hiddenLinks {
     display: none;
   }
+  .navbar .rightSide .dropdown {
+    position: relative;
+  }
+  
+  .navbar .rightSide .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%; /* Position the dropdown below the navbar link */
+    left: 0;
+    background-color: #222831;
+    padding: 10px;
+    z-index: 1; /* Ensure dropdown appears above other elements */
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block; /* Display dropdown when hovering over the navbar link */
+  }
+
+  
+  .navbar .rightSide .dropdown-content a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  
+  .navbar .rightSide .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
   
   .navbar #open a {
     width: 70px;

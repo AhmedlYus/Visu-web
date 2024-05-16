@@ -1,0 +1,54 @@
+.exhibition-container {
+  display: flex;
+  align-items: center;
+  max-width: 90%;
+  margin: 5% auto; 
+  border-radius: 10px; 
+  overflow: hidden; 
+}
+
+.exhibition-info {
+  flex: 2; 
+  padding: 20px;
+  color: white;
+}
+
+.exhibition-title {
+  margin-top: 0; 
+}
+
+.exhibition-text {
+  margin-bottom: 20px; 
+}
+
+.exhibition-button {
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.exhibition-button:hover {
+  background-color: #222831;
+  color: white;
+  transform: scale(1.05);
+}
+
+.exhibition-button:focus {
+  outline: none;
+}
+
+.exhibition-image-container {
+  flex: 3; 
+  max-width: 50%; 
+}
+
+.exhibition-image {
+  width: 100%; 
+  height: auto; 
+}
