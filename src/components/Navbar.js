@@ -37,7 +37,7 @@ function Navbar() {
         </Link>
       </div>
       <div className='rightSide'>
-        <Link to="/" onMouseEnter={() => toggleAllDropdowns(true)} onMouseLeave={() => toggleAllDropdowns(false)}>Home</Link>
+        <Link to="/visu-web" onMouseEnter={() => toggleAllDropdowns(true)} onMouseLeave={() => toggleAllDropdowns(false)}>Home</Link>
         <div className="dropdown" onMouseEnter={toggleExhibitionDropdown} onMouseLeave={toggleExhibitionDropdown}>
           <Link to="/exhibitions">Exhibition</Link>
           {(showExhibitionDropdown || showAllDropdowns) && (
