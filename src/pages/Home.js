@@ -89,7 +89,7 @@ const Home = () => {
             in <br></br>the movie on display in 007 Museum 
             </p>
             </div>
-            <a href="/exhibitions/notime" className="homepage-button"><button >See more</button></a>
+            <a href="/Visu-web/exhibitions/notime" className="homepage-button"><button >See more</button></a>
         </div>
     </div>
     <div style={{ margin: '20px 0' }}></div>
@@ -103,7 +103,7 @@ const Home = () => {
             visit the museum for a thrilling adventure,  <br></br>you wont forget
             into the life of the worlds most famous spy</p>
             </div>
-            <a href="/exhibitions/spectre" className="homepage-button"><button >See more</button></a>
+            <a href="/Visu-web/exhibitions/spectre" className="homepage-button"><button >See more</button></a>
         </div>
         <div className="card-banner">
             <BannerTime cards={cards2} />
@@ -124,7 +124,7 @@ const Home = () => {
             in the movie on display in 007 Museum 
             this is the end to Daniel Craig era</p>
           </div>
-            <a href="/exhibitions/solace" className="homepage-button"><button >See more</button></a>
+            <a href="/Visu-web/exhibitions/solace" className="homepage-button"><button >See more</button></a>
         </div>
     </div>
     <div className="grid-container">
@@ -139,7 +139,7 @@ const Home = () => {
                found under Bookings/rental  </p>
                </div>
           </div>
-            <a href="/exhibitions/Casino-royale" className="homepage-button"><button >See more</button></a>
+            <a href="/Visu-web/exhibitions/Casino-royale" className="homepage-button"><button >See more</button></a>
         </div>
         <div className="card-banner">
             <BannerTime cards={cards3} />
