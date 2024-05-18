@@ -12,24 +12,24 @@ function Navbar() {
 
   const toggleBookingDropdown = () => {
     setShowBookingDropdown(!showBookingDropdown);
-    setShowAllDropdowns(false); // Close all dropdowns when individual dropdown is toggled
+    setShowAllDropdowns(false); 
   }
 
   const toggleExhibitionDropdown = () => {
     setShowExhibitionDropdown(!showExhibitionDropdown);
-    setShowAllDropdowns(false); // Close all dropdowns when individual dropdown is toggled
+    setShowAllDropdowns(false); // 
   }
 
   const toggleAllDropdowns = (value) => {
     setShowAllDropdowns(value);
-    setShowBookingDropdown(false); // Close individual dropdowns when all dropdowns are toggled
+    setShowBookingDropdown(false); 
     setShowExhibitionDropdown(false);
   }
 
   return (
     <div className='navbar'>
       <div className='leftSide'>
-        <Link to="/visu-web/" className="logoLink">
+        <Link to="/Visu-web/" className="logoLink">
           <div className='logo'>
             <img src={Logo} alt='Logo' />
             <div className='logoText'>MUSEUM</div>
@@ -37,7 +37,7 @@ function Navbar() {
         </Link>
       </div>
       <div className='rightSide'>
-        <Link to="/visu-web/" onMouseEnter={() => toggleAllDropdowns(true)} onMouseLeave={() => toggleAllDropdowns(false)}>Home</Link>
+        <Link to="/Visu-web/" onMouseEnter={() => toggleAllDropdowns(true)} onMouseLeave={() => toggleAllDropdowns(false)}>Home</Link>
         <div className="dropdown" onMouseEnter={toggleExhibitionDropdown} onMouseLeave={toggleExhibitionDropdown}>
           <Link to="/exhibitions">Exhibition</Link>
           {(showExhibitionDropdown || showAllDropdowns) && (
