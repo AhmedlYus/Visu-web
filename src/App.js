@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Exhibitions from './pages/Exhibitions';
@@ -21,7 +21,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route exact path="/Visu-web" element={<Home />} />
+          <Route exact path="/Visu-web/" element={<Home />} />
           <Route path="/Visu-web/exhibitions" element={<Exhibitions />} />
           <Route path="/Visu-web/exhibitions/notime" element={<ExhibitionsNotime />} />
           <Route path="/Visu-web/exhibitions/spectre" element={<ExhibitionsSpectre />} />
