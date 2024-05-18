@@ -11,7 +11,7 @@ function ExhibitionsNotime() {
       release of the movie, the 007 museum has acquired props 
       and objects used in the movie."
       image={utstillingNo}
-      buttonLink="/booking/tickets"
+      buttonLink="/Visu-web/booking/tickets"
     />
   );
 }

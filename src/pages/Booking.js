@@ -9,19 +9,19 @@ function Booking() {
       title: "Tickets",
       text: "Book museum tickets",
       exhibitionArea: "",
-      bookNowLink: "/booking/tickets",
+      bookNowLink: "/Visu-web/booking/tickets",
       image: noTimeBond,
       backgroundColor: "#088F8F",
     },
     {
       title: "Rent Aston Martin",
-      text: "The infamous Aston Martin ",
+      text: "The infamous Aston Martin",
       exhibitionArea: "", 
-      bookNowLink: "/booking/rental",
+      bookNowLink: "/Visu-web/booking/rental",
       image: logoAston,
       backgroundColor: "#2b4e48",
     }
-  ];
+  ];  
   return(
     <div>
       <div className='mainSection'>

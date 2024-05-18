@@ -29,7 +29,7 @@ function Navbar() {
   return (
     <div className='navbar'>
       <div className='leftSide'>
-        <Link to="/visu-web" className="logoLink">
+        <Link to="/visu-web/" className="logoLink">
           <div className='logo'>
             <img src={Logo} alt='Logo' />
             <div className='logoText'>MUSEUM</div>

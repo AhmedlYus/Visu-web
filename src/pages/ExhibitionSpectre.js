@@ -11,7 +11,7 @@ function ExhibitionsSpectre() {
       organization known as Spectre.
       try out painpoint replecas of James Bond guns"
       image={utstillingNo}
-      buttonLink="/booking/tickets"
+      buttonLink="/Visu-web/booking/tickets"
     />
   );
 }

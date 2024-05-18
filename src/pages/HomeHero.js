@@ -8,7 +8,7 @@ const HeroSection = () => {
     <div className='Hero-Section'>
       <div className='welcomeBox'>
         <WelcomeMs />
-        <a href="/booking/tickets"><button className='welcomeButton'>Book your tickets here</button></a>
+        <a href="/Visu-web/booking/tickets"><button className='welcomeButton'>Book your tickets here</button></a>
       </div>
       <video className='HeroVideo' autoPlay loop muted>
         <source src={JamesBondVideo} type='video/mp4' /> {/* Use the imported variable */}

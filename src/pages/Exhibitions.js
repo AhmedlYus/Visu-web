@@ -17,7 +17,7 @@ const Exhibitions = () => {
       title: "No time to die",
       text: "Bonds final mission",
       exhibitionArea: "Area 5",
-      bookNowLink: "/exhibitions/notime",
+      bookNowLink: "/Visu-web/exhibitions/notime",
       image: noTimeBond,
       backgroundColor: "#088F8F",
     },
@@ -25,7 +25,7 @@ const Exhibitions = () => {
       title: "Spectre",
       text: "Bond unravels spectre",
       exhibitionArea: "Area 5", 
-      bookNowLink: "/exhibitions/spectre",
+      bookNowLink: "/Visu-web/exhibitions/spectre",
       image: spectreBond,
       backgroundColor: "#002c3d",
     }
