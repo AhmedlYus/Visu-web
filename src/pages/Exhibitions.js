@@ -1,3 +1,5 @@
+// Exhibitions.js
+
 import React from 'react'
 import CardBanners from '../components/testbanners';
 import noTimeBond from '../assets/NotimeBond.jpg';
@@ -17,7 +19,7 @@ const Exhibitions = () => {
       title: "No time to die",
       text: "Bonds final mission",
       exhibitionArea: "Area 5",
-      bookNowLink: "/Visu-web/exhibitions/notime",
+      bookNowLink: "/exhibitions/notime", // Updated link
       image: noTimeBond,
       backgroundColor: "#088F8F",
     },
@@ -25,7 +27,7 @@ const Exhibitions = () => {
       title: "Spectre",
       text: "Bond unravels spectre",
       exhibitionArea: "Area 5", 
-      bookNowLink: "/Visu-web/exhibitions/spectre",
+      bookNowLink: "/exhibitions/spectre", // Updated link
       image: spectreBond,
       backgroundColor: "#002c3d",
     }
@@ -66,36 +68,35 @@ const Exhibitions = () => {
       title: "Triump Speed - Special Edition",
       description:
         "Special Edition bike engraved with all 25 Bond movies",
-        bookNowLink: '',
     },
   ];
   return(
     <div>
       <div className='mainSection'>
-      <div style={{ margin: '20px 0' }}></div>
+        <div style={{ margin: '20px 0' }}></div>
         <div className='exhi-header'>
-        <h1>Time limited Exhibition</h1>
+          <h1>Time limited Exhibition</h1>
         </div>
         <CardBanners cards={cards} />
         <div style={{ margin: '20px 0' }}></div>
         <div className='section-line'>
         </div>
         <div className='visit-header'>
-        <h1>Car Collections</h1>
+          <h1>Car Collections</h1>
         </div>
         <VisitCards museumCards={museumCards}/>
         <div className='section-line'></div>
         <div className='visit-header'>
-        <h1>Motorcycle Collections</h1>
+          <h1>Motorcycle Collections</h1>
         </div>
         <VisitCards museumCards={museumCards2}/>
         <div className='visit-header'>
-        <h1>Museum Map</h1>
+          <h1>Museum Map</h1>
         </div>
       </div>
       <div className='Musum-map'>
         <img src={MuseumMap} alt="Museum Map" />
-        </div>
+      </div>
     </div>
   );
 }

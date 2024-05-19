@@ -1,3 +1,5 @@
+// Booking.js
+
 import React from 'react'
 import CardBanners from '../components/testbanners';
 import noTimeBond from '../assets/NotimeBond.jpg';
@@ -9,7 +11,7 @@ function Booking() {
       title: "Tickets",
       text: "Book museum tickets",
       exhibitionArea: "",
-      bookNowLink: "/Visu-web/booking/tickets",
+      bookNowLink: "/booking/tickets", // Updated link
       image: noTimeBond,
       backgroundColor: "#088F8F",
     },
@@ -17,7 +19,7 @@ function Booking() {
       title: "Rent Aston Martin",
       text: "The infamous Aston Martin",
       exhibitionArea: "", 
-      bookNowLink: "/Visu-web/booking/rental",
+      bookNowLink: "/booking/rental", // Updated link
       image: logoAston,
       backgroundColor: "#2b4e48",
     }
@@ -26,7 +28,7 @@ function Booking() {
     <div>
       <div className='mainSection'>
         <div className='exhi-header'>
-        <h1>Exhibitions and attractions</h1>
+          <h1>Exhibitions and attractions</h1>
         </div>
         <CardBanners cards={cards} />
         <div style={{ margin: '20px 0' }}></div>
@@ -34,7 +36,6 @@ function Booking() {
         </div>
       </div>
     </div>
-
   );
 }
 

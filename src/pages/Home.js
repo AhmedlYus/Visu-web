@@ -1,3 +1,6 @@
+// Home.js
+// Update the import statement if necessary
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Home.css';
@@ -48,19 +51,19 @@ const Home = () => {
       image: oscarStatue,
       title: "Oscar Award",
       description: "Oscar statue on display",
-      bookNowLink: '#',
+      bookNowLink: '/about', // Update this link as per your routes
     },
     {
       image: watches,
       title: "Watch Collections",
       description: "View all the James Bond watch collections in the museum",
-      bookNowLink: '#',
+      bookNowLink: '/about', // Update this link as per your routes
     },
     {
       image: hovercraft,
       title: "Vehicle Collections",
       description: "Everything from set cars to aircraft and hoverboats",
-      bookNowLink: '#',
+      bookNowLink: '/about', // Update this link as per your routes
     },
   ];
 
@@ -86,7 +89,7 @@ const Home = () => {
                 the movie on display in 007 Museum
               </p>
             </div>
-            <Link to="/visu-web/exhibitions/notime" className="homepage-button">
+            <Link to="/exhibitions/notime" className="homepage-button">
               <button>See more</button>
             </Link>
           </div>
@@ -104,7 +107,7 @@ const Home = () => {
                 you won't forget the life of the world's most famous spy
               </p>
             </div>
-            <Link to="/visu-web/exhibitions/spectre" className="homepage-button">
+            <Link to="/exhibitions/spectre" className="homepage-button">
               <button>See more</button>
             </Link>
           </div>
@@ -126,7 +129,7 @@ const Home = () => {
                 in the movie on display in 007 Museum. This is the end to Daniel Craig's era.
               </p>
             </div>
-            <Link to="/visu-web/exhibitions/solace" className="homepage-button">
+            <Link to="/exhibitions/solace" className="homepage-button">
               <button>See more</button>
             </Link>
           </div>
@@ -141,7 +144,7 @@ const Home = () => {
                 available for rental can be found under Bookings/rental.
               </p>
             </div>
-            <Link to="/visu-web/exhibitions/casino-royale" className="homepage-button">
+            <Link to="/exhibitions/casino-royale" className="homepage-button">
               <button>See more</button>
             </Link>
           </div>
