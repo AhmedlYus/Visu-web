@@ -9,7 +9,7 @@ const HeroSection = () => {
     <div className='Hero-Section'>
       <div className='welcomeBox'>
         <WelcomeMs />
-        <Link to="/Visu-web/booking/tickets">
+        <Link to="/booking/tickets">
         <button className='welcomeButton'>Book your tickets here</button>
         </Link>
       </div>

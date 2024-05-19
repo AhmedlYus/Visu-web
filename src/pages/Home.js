@@ -16,28 +16,28 @@ import casinoroyal from '../assets/1366_2000.jpg';
 const Home = () => {
   const cards = [
     {
-      bookNowLink: "/visu-web/exhibitions/notime",
+      bookNowLink: "/exhibitions/notime",
       image: jbNotime,
       backgroundColor: "#1f5260",
     },
   ];
   const cards2 = [
     {
-      bookNowLink: "/visu-web/exhibitions/spectre",
+      bookNowLink: "/exhibitions/spectre",
       image: spectrebanner,
       backgroundColor: "#002c3d",
     },
   ];
   const cards3 = [
     {
-      bookNowLink: "/visu-web/exhibitions/casino-royale",
+      bookNowLink: "/exhibitions/casino-royale",
       image: casinoroyal,
       backgroundColor: "#002c3d",
     },
   ];
   const cards4 = [
     {
-      bookNowLink: "/visu-web/exhibitions/solace",
+      bookNowLink: "/exhibitions/solace",
       image: QOposter,
       backgroundColor: "#656465",
     },
