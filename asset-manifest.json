@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Visu-web/static/css/main.3d31f2a8.css",
-    "main.js": "/Visu-web/static/js/main.607cf19b.js",
+    "main.js": "/Visu-web/static/js/main.2aa789d6.js",
     "static/media/JamesBondVideo.mp4": "/Visu-web/static/media/JamesBondVideo.489897b9a3d757001c5c.mp4",
     "static/media/BondBanner.jpg": "/Visu-web/static/media/BondBanner.ff5471ed3229c77d180b.jpg",
     "static/media/QOSposter.jpg": "/Visu-web/static/media/QOSposter.ba42e5d88dbee7d45a24.jpg",
@@ -27,10 +27,10 @@
     "static/media/AstonmartinLogo.jpg": "/Visu-web/static/media/AstonmartinLogo.35f53d24f63f62b1d2c2.jpg",
     "index.html": "/Visu-web/index.html",
     "main.3d31f2a8.css.map": "/Visu-web/static/css/main.3d31f2a8.css.map",
-    "main.607cf19b.js.map": "/Visu-web/static/js/main.607cf19b.js.map"
+    "main.2aa789d6.js.map": "/Visu-web/static/js/main.2aa789d6.js.map"
   },
   "entrypoints": [
     "static/css/main.3d31f2a8.css",
-    "static/js/main.607cf19b.js"
+    "static/js/main.2aa789d6.js"
   ]
 }
