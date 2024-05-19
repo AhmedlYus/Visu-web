@@ -1,18 +1,20 @@
 import React from "react";
-import '../styles/Exhicards.css'; // Import your CSS file
+import { Link } from "react-router-dom";
+import '../styles/Exhicards.css';
 
 const ExhibitionCard = ({ title, text, image }) => {
- 
   return (
     <div className="card-link">
-      <div className="exhibition-container" >
+      <div className="exhibition-container">
         <div className="exhibition-image-container">
           <img src={image} alt={title} className="exhibition-image" />
         </div>
         <div className="exhibition-info">
           <h2 className="exhibition-title">{title}</h2>
           <p className="exhibition-text">{text}</p>
-          <a href="/visu-web/booking/tickets" className="exhibition-button">Book tickets</a>
+          <Link to="/visu-web/booking/tickets" className="exhibition-button">
+            Book tickets
+          </Link>
         </div>
       </div>
     </div>
