@@ -7,7 +7,7 @@ const MuseumCard = ({ image, title, description, bookNowLink }) => {
     <div>
       <div className="museum-container">
         <div className="Museumbox-container">
-          <div className='info'>
+          <div className='info-muse'>
             <div className='Museum-img-con'>
               <img src={image} alt={title} className="museum-card-image" />
               </div>

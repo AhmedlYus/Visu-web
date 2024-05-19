@@ -13,21 +13,24 @@
     overflow: hidden;
 }
 .Museum-img-con {
-    background-color: #312f2f;
+    background-color: aliceblue;
     height: 28vh;
     width: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
     object-fit: cover;
+    margin-left: 2%;
+    margin-top: 2%;
 }
 
 .museum-card-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    margin-top: 5%;
-    margin-right: 15%;
+    margin-top: 0%;
+    margin-right: 0%;
+    
 }
 
 .info-muse {

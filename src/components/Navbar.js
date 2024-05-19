@@ -43,19 +43,23 @@ function Navbar() {
           <Link to="/exhibitions">Exhibition</Link>
           {(showExhibitionDropdown || showAllDropdowns) && (
             <div className="dropdown-content">
+              <div className='small-font'>
               <Link to="/exhibitions/notime">No Time to Die</Link>
               <Link to="/exhibitions/spectre">Spectre</Link>
               <Link to="/exhibitions/casino-royale">Casino Royale</Link>
               <Link to="/exhibitions/solace">Quantum of Solace</Link>
+              </div>
             </div>
           )}
         </div>
         <div className="dropdown" onMouseEnter={toggleBookingDropdown} onMouseLeave={toggleBookingDropdown}>
           <Link to="/booking">Booking</Link>
           {(showBookingDropdown || showAllDropdowns) && (
-            <div className="dropdown-content">
+            <div className="dropdown-content ">
+              <div className='small-font'>
               <Link to="/booking/tickets">Tickets</Link>
               <Link to="/booking/rental">Rental</Link>
+              </div>
             </div>
           )}
         </div>

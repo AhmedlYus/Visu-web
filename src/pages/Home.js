@@ -92,11 +92,11 @@ const Home = () => {
             <div className='text-container'>
               <h3>Released 2021</h3>
               <p>
-                As Daniel Craig's nearly two decades era as James <br />
-                Bond closes its chapter. Agent 007 ventures on his final mission.
+                As Daniel Craig's nearly two-decade era as James <br />
+                Bond closes its chapter, Agent 007 ventures on his final mission.
                 <br /><br />
-                See cars, bikes and spy gadgets used in <br />
-                the movie on display in 007 Museum
+                See cars, bikes, and spy gadgets used in <br />
+                the movie on display at the 007 Museum
               </p>
             </div>
             <Link to="/exhibitions/notime" className="homepage-button">
@@ -104,17 +104,16 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div style={{ margin: '20px 0' }}></div>
         <div className="grid-container">
           <div className="Fillers">
             <div className='text-container'>
               <h3>Released 2015</h3>
               <p>
-                Bond unravels spectre with new action <br />
-                As always 007 Museum have acquired objects <br />
-                from the movie on this display <br /><br />
-                Visit the museum for a thrilling adventure, <br />
-                you won't forget the life of the world's most famous spy
+                Bond unravels Spectre with new action. <br />
+                As always, 007 Museum have acquired objects <br />
+                from the movie for this display <br /><br />
+                Visit the museum for a thrilling adventure. <br />
+                you won't forget the journey into the life of the world's most famous spy.
               </p>
             </div>
             <Link to="/exhibitions/spectre" className="homepage-button">
@@ -125,7 +124,6 @@ const Home = () => {
             <BannerTime cards={cards2} />
           </div>
         </div>
-        <div style={{ margin: '20px 0' }}></div>
         <div className="grid-container">
           <div className="card-banner">
             <BannerTime cards={cards4} />
@@ -150,9 +148,9 @@ const Home = () => {
             <div className='text-container'>
               <h3>Released 2006</h3>
               <p>
-                Casino Royale brings excitement marking Daniel Craig's first start as Agent 007 <br /><br />
+                Casino Royale brings excitement, marking Daniel Craig's debut as Agent 007. <br /><br />
                 The museum has a collection of watches, and the infamous Aston Martin DBS Vantage <br />
-                available for rental can be found under Bookings/rental.
+                available for rental.
               </p>
             </div>
             <Link to="/exhibitions/casino-royale" className="homepage-button">
@@ -163,6 +161,7 @@ const Home = () => {
             <BannerTime cards={cards3} />
           </div>
         </div>
+        <div style={{ margin: '20px 0' }}></div>
         <SignupBanner />
         <div className='visit-header'>
           <h1>Collections</h1>

@@ -21,8 +21,8 @@ function SignupBanner() {
     <div>
       <div className='BannerContainer'>
         <img src={bondBanner} alt='banner' className='bannerImge' />
-        <h2 className='newsletter-text'>Sign up for newsletter click button<br></br>
-        below get 20% of first tickets</h2>
+        <h2 className='newsletter-text'>Sign up for newsletter and recive a 20% <br></br>
+        discount on your ticket purchase.</h2>
         <button className="newsletterButton" onClick={handleSubmit}>
             {showForm ? 'Sign up' : 'sign up for our newsletter'}</button>
         {showForm && (
