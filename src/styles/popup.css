@@ -1,0 +1,157 @@
+.popup {
+    position: fixed;
+    top: 47%;
+    left: 3%;
+    width: 80%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    bottom: 20%;
+    z-index: 1000;
+}
+
+.popup-inner {
+    position: relative;
+    padding: 1%;
+    width: 100%;
+    max-width: 640px;
+    background-color: white;
+    color: black;
+}
+
+.popup-inner .close-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 20px;
+    height: auto;
+    flex-grow: 1;
+}
+
+.article {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+@media (max-width: 991px) {
+    .article {
+        flex-direction: column;
+        gap: 0px;
+    }
+}
+
+.content-column {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 3%;
+}
+
+@media (max-width: 991px) {
+    .content-column {
+        width: 100%;
+    }
+}
+
+.service-heading {
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: -0.5px;
+    text-align: left;
+    font: 700 36px/110% "Poppins", sans-serif;
+    max-width: 100%;
+}
+
+@media (max-width: 991px) {
+    .service-heading {
+        text-align: center;
+    }
+}
+
+.product-description {
+    color: rgba(74, 74, 74, 1);
+    letter-spacing: 0px;
+    text-align: left;
+    font: 300 16px "Poppins", sans-serif;
+    max-width: 100%;
+    margin-top: 8px;
+}
+
+@media (max-width: 991px) {
+    .product-description {
+        text-align: center;
+    }
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 1%;
+}
+
+.form-input {
+    flex-grow: 1;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+    min-height: 20px;
+    width: 100%;
+    margin-bottom: 10px; /* Add margin to separate input and button */
+}
+
+@media (max-width: 991px) {
+    .form-input {
+        width: 100%;
+    }
+}
+
+.submit-button {
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    padding: 15px 25px;
+    cursor: pointer;
+    width: 113%;
+    min-height: 20px;
+    align-self:
+}
+
+@media (max-width: 991px) {
+    .submit-button {
+        width: auto;
+        align-self: center;
+    }
+}
+
+.image-column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 100%;
+}
+
+@media (max-width: 991px) {
+    .image-column {
+        width: 100%;
+    }
+}
+
+.product-image {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    min-height: 20px;
+    min-width: 20px;
+    overflow: hidden;
+    height: auto;
+}

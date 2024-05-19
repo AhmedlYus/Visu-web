@@ -1,7 +1,5 @@
-// Home.js
-// Update the import statement if necessary
 
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Home.css';
 import HeroSection from '../pages/HomeHero';
@@ -15,8 +13,19 @@ import jbNotime from '../assets/BondalternateNotime.jpg';
 import QOposter from '../assets/QOSposter.jpg';
 import spectrebanner from '../assets/007dotcom-Poster-Spectre.webp';
 import casinoroyal from '../assets/1366_2000.jpg';
+import Popup from '../components/Popup';
 
 const Home = () => {
+  const [buttonPopup, setButtonPopup] = useState(false);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setButtonPopup(true);
+    }, 5000);
+
+    return () => clearTimeout(timeout);
+  }, []);
+
   const cards = [
     {
       bookNowLink: "/exhibitions/notime",
@@ -51,19 +60,16 @@ const Home = () => {
       image: oscarStatue,
       title: "Oscar Award",
       description: "Oscar statue on display",
-      bookNowLink: '/about', // Update this link as per your routes
     },
     {
       image: watches,
       title: "Watch Collections",
       description: "View all the James Bond watch collections in the museum",
-      bookNowLink: '/about', // Update this link as per your routes
     },
     {
       image: hovercraft,
       title: "Vehicle Collections",
       description: "Everything from set cars to aircraft and hoverboats",
-      bookNowLink: '/about', // Update this link as per your routes
     },
   ];
 
@@ -71,6 +77,10 @@ const Home = () => {
     <div>
       <HeroSection />
       <div className='mainSection'>
+        <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+        </Popup>
+
+
         <div className='exhi-header'>
           <h1>Exhibitions and attractions</h1>
         </div>

@@ -10,23 +10,27 @@
     flex-direction: column;
     width: 100%;
     background-color: #312f2f;
+    overflow: hidden;
 }
 .Museum-img-con {
-    background-color: aliceblue;
-    height: 31vh;
-    width: 42vh;
+    background-color: #312f2f;
+    height: 28vh;
+    width: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    object-fit: cover;
 }
 
 .museum-card-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    margin-top: 5%;
+    margin-right: 15%;
 }
 
-.info {
+.info-muse {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,13 +52,14 @@
 .museum-card-title {
     font-size: 22px;
     margin-bottom: 10%;
-    margin-left: 5%;
+    margin-left: 2%;
 }
 
 .museum-card-description {
     font-size: 16px;
     text-align: left;
-    margin-left: 5%;
+    margin-left: 2%;
+    padding-right: 15%;
 }
 
 .museum-grid {
