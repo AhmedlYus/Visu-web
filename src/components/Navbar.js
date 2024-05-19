@@ -29,7 +29,7 @@ function Navbar() {
   return (
     <div className='navbar'>
       <div className='leftSide'>
-        <Link to="#/Visu-web/" className="logoLink">
+        <Link to="#/" className="logoLink">
           <div className='logo'>
             <img src={Logo} alt='Logo' />
             <div className='logoText'>MUSEUM</div>
@@ -42,24 +42,24 @@ function Navbar() {
           <Link to="#/exhibitions">Exhibition</Link>
           {(showExhibitionDropdown || showAllDropdowns) && (
             <div className="dropdown-content">
-              <Link to="#/Visu-web/exhibitions/notime">No Time to Die</Link>
-              <Link to="#/Visu-web/exhibitions/spectre">Spectre</Link>
-              <Link to="#/Visu-web/exhibitions/casino-royale">Casino Royale</Link>
-              <Link to="#/Visu-web/exhibitions/solace">Quantum of Solace</Link>
+              <Link to="#/exhibitions/notime">No Time to Die</Link>
+              <Link to="#/exhibitions/spectre">Spectre</Link>
+              <Link to="#/exhibitions/casino-royale">Casino Royale</Link>
+              <Link to="#/exhibitions/solace">Quantum of Solace</Link>
             </div>
           )}
         </div>
         <div className="dropdown" onMouseEnter={toggleBookingDropdown} onMouseLeave={toggleBookingDropdown}>
-          <Link to="#/Visu-web/booking">Booking</Link>
+          <Link to="#/booking">Booking</Link>
           {(showBookingDropdown || showAllDropdowns) && (
             <div className="dropdown-content">
-              <Link to="#/Visu-web/booking/tickets">Tickets</Link>
-              <Link to="#/Visu-web/booking/rental">Rental</Link>
+              <Link to="#/booking/tickets">Tickets</Link>
+              <Link to="#/booking/rental">Rental</Link>
             </div>
           )}
         </div>
-        <Link to="#/Visu-web/contact">Contact</Link>
-        <Link to="#/Visu-web/about">About us</Link>
+        <Link to="#/contact">Contact</Link>
+        <Link to="#/about">About us</Link>
         <Button>
           <ReorderIcon />
         </Button>
