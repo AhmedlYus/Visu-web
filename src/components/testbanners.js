@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import '../styles/testBanner.css';
 
 const MovieCard = ({ title, text, exhibitionArea, bookNowLink, image, backgroundColor }) => {
@@ -16,8 +17,9 @@ const MovieCard = ({ title, text, exhibitionArea, bookNowLink, image, background
     backgroundColor: isHovered ? backgroundColor : "#312f2f",
     transition: "background-color 0.5s ease",
   };
+
   return (
-    <a href={bookNowLink} className="card-link">
+    <Link to={bookNowLink} className="card-link">
       <div className="poster-container" onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}>
         <div className="info-container" style={infoContainerStyle}>
@@ -26,7 +28,7 @@ const MovieCard = ({ title, text, exhibitionArea, bookNowLink, image, background
             <p className="text">{text}</p>
             <div className="text-container">
               <div className="circle-link">
-              <div className="book-now-link"></div>
+                <div className="book-now-link"></div>
               </div>
             </div>
           </div>
@@ -35,11 +37,7 @@ const MovieCard = ({ title, text, exhibitionArea, bookNowLink, image, background
           <img src={image} alt={title} className="movie-img" />
         </div>
       </div>
-      <div className="Poster-text">
-        <h1></h1>
-        <p></p>
-      </div>
-    </a>
+    </Link>
   );
 };
 
