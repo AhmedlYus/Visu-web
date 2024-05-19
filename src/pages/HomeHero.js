@@ -9,8 +9,8 @@ const HeroSection = () => {
     <div className='Hero-Section'>
       <div className='welcomeBox'>
         <WelcomeMs />
-        <Link to="/booking/tickets">
-        <button className='welcomeButton'>Book your tickets here</button>
+        <Link to="/booking/tickets"> {/* Updated link */}
+          <button className='welcomeButton'>Book your tickets here</button>
         </Link>
       </div>
       <video className='HeroVideo' autoPlay loop muted>
