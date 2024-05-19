@@ -12,7 +12,7 @@ const ExhibitionCard = ({ title, text, image }) => {
         <div className="exhibition-info">
           <h2 className="exhibition-title">{title}</h2>
           <p className="exhibition-text">{text}</p>
-          <Link to="/visu-web/booking/tickets" className="exhibition-button">
+          <Link to="/booking/tickets" className="exhibition-button">
             Book tickets
           </Link>
         </div>
