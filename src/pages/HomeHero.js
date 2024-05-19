@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/HeroSection.css';
 import WelcomeMs from '../components/WelcomeMs';
 import JamesBondVideo from '../assets/JamesBondVideo.mp4'; // Import the video file
@@ -8,7 +9,9 @@ const HeroSection = () => {
     <div className='Hero-Section'>
       <div className='welcomeBox'>
         <WelcomeMs />
-        <a href="/Visu-web/booking/tickets"><button className='welcomeButton'>Book your tickets here</button></a>
+        <Link to="/Visu-web/booking/tickets">
+        <button className='welcomeButton'>Book your tickets here</button>
+        </Link>
       </div>
       <video className='HeroVideo' autoPlay loop muted>
         <source src={JamesBondVideo} type='video/mp4' /> {/* Use the imported variable */}
