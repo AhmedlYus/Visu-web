@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import '../styles/Bannertime.css';
 
 const Banner = ({ title, text, bookNowLink, image, backgroundColor }) => {
@@ -16,18 +17,17 @@ const Banner = ({ title, text, bookNowLink, image, backgroundColor }) => {
     backgroundColor: isHovered ? backgroundColor : "#312f2f",
     transition: "background-color 0.5s ease",
   };
+
   return (
-    <a href={bookNowLink} className="card-link">
-      <div className="Big-container" onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}>
-              <div className="book-now-link"></div>
+    <Link to={bookNowLink} className="card-link">
+      <div className="Big-container" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+        <div className="book-now-link"></div>
         <div className="Poster-img-container">
           <img src={image} alt={title} className="Poster-img" />
         </div>
       </div>
-      <div className="Poster-text">
-      </div>
-    </a>
+      <div className="Poster-text"></div>
+    </Link>
   );
 };
 
