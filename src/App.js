@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Exhibitions from './pages/Exhibitions';
@@ -21,17 +21,17 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route exact path="/Visu-web/" element={<Home />} />
-          <Route path="/Visu-web/exhibitions" element={<Exhibitions />} />
-          <Route path="/Visu-web/exhibitions/notime" element={<ExhibitionsNotime />} />
-          <Route path="/Visu-web/exhibitions/spectre" element={<ExhibitionsSpectre />} />
-          <Route path="/Visu-web/exhibitions/Casino-royale" element={<CasinoRoyale />} />
-          <Route path="/Visu-web/exhibitions/solace" element={<QuantumofSol />} />
-          <Route path="/Visu-web/booking" element={<Booking />} />
-          <Route path="/Visu-web/booking/tickets" element={<BookingTickets />} />
-          <Route path="/Visu-web/booking/rental" element={<BookingRental />} />
-          <Route path="/Visu-web/contact" element={<Contact />} />
-          <Route path="/Visu-web/about" element={<About />} />
+          <Route exact path="/" element={<Home />} />
+          <Route path="/exhibitions" element={<Exhibitions />} />
+          <Route path="/exhibitions/notime" element={<ExhibitionsNotime />} />
+          <Route path="/exhibitions/spectre" element={<ExhibitionsSpectre />} />
+          <Route path="/exhibitions/Casino-royale" element={<CasinoRoyale />} />
+          <Route path="/exhibitions/solace" element={<QuantumofSol />} />
+          <Route path="/booking" element={<Booking />} />
+          <Route path="/booking/tickets" element={<BookingTickets />} />
+          <Route path="/booking/rental" element={<BookingRental />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
       </Router>

@@ -4,7 +4,7 @@ import '../styles/VisitCard.css';
 
 const MuseumCard = ({ image, title, description, bookNowLink }) => {
   return(
-    <a href={bookNowLink} className="Museum-link">
+    <div>
       <div className="museum-container">
         <div className="Museumbox-container">
           <div className='info'>
@@ -18,7 +18,7 @@ const MuseumCard = ({ image, title, description, bookNowLink }) => {
         </div>
       </div>
     </div>
-  </a>
+    </div>
   );
 };
 
