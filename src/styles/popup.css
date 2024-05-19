@@ -1,9 +1,9 @@
 .popup {
     position: fixed;
-    top: 47%;
+    top: 40%;
     left: 3%;
     width: 80%;
-    height: 45vh;
+    height: 55vh;
     display: flex;
     justify-content: center;
     bottom: 20%;

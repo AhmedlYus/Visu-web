@@ -134,9 +134,10 @@ const Home = () => {
             <div className='text-container'>
               <h3>Released 2008</h3>
               <p>
-                As Daniel Craig's nearly two decades era as James Bond closes its chapter. <br />
-                Agent 007 ventures on his final mission. See cars, bikes, and spy gadgets used <br />
-                in the movie on display in 007 Museum. This is the end to Daniel Craig's era.
+              The 007 Museum boasts an impressive array of artifacts from Quantum of Solace, <br />
+              including iconic hoverboats, cutting-edge gadgets, and other thrilling memorabilia. <br /><br />
+              Visitors can immerse themselves in the world of espionage as they explore these relics, <br />
+              gaining insight into the cinematic mastery of the James Bond franchise.<br />
               </p>
             </div>
             <Link to="/exhibitions/solace" className="homepage-button">
