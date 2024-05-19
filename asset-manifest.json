@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Visu-web/static/css/main.c1907631.css",
-    "main.js": "/Visu-web/static/js/main.2753b39b.js",
+    "main.css": "/Visu-web/static/css/main.efb13422.css",
+    "main.js": "/Visu-web/static/js/main.aeee2b99.js",
     "static/media/JamesBondVideo.mp4": "/Visu-web/static/media/JamesBondVideo.489897b9a3d757001c5c.mp4",
     "static/media/popupimg.jpg": "/Visu-web/static/media/popupimg.a660a60c133101ce8077.jpg",
     "static/media/BondBanner.jpg": "/Visu-web/static/media/BondBanner.ff5471ed3229c77d180b.jpg",
@@ -27,11 +27,11 @@
     "static/media/oscar_statue007.jpg": "/Visu-web/static/media/oscar_statue007.b3f1ba65bc7ebc98cf5c.jpg",
     "static/media/AstonmartinLogo.jpg": "/Visu-web/static/media/AstonmartinLogo.35f53d24f63f62b1d2c2.jpg",
     "index.html": "/Visu-web/index.html",
-    "main.c1907631.css.map": "/Visu-web/static/css/main.c1907631.css.map",
-    "main.2753b39b.js.map": "/Visu-web/static/js/main.2753b39b.js.map"
+    "main.efb13422.css.map": "/Visu-web/static/css/main.efb13422.css.map",
+    "main.aeee2b99.js.map": "/Visu-web/static/js/main.aeee2b99.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1907631.css",
-    "static/js/main.2753b39b.js"
+    "static/css/main.efb13422.css",
+    "static/js/main.aeee2b99.js"
   ]
 }
