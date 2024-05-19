@@ -1,3 +1,4 @@
+// Navbar.js
 import React, { useState } from 'react';
 import Logo from '../assets/077Logo.jpeg';
 import { Link } from 'react-router-dom';
@@ -39,7 +40,7 @@ function Navbar() {
       <div className='rightSide'>
         <Link to="/" onMouseEnter={() => toggleAllDropdowns(true)} onMouseLeave={() => toggleAllDropdowns(false)}>Home</Link>
         <div className="dropdown" onMouseEnter={toggleExhibitionDropdown} onMouseLeave={toggleExhibitionDropdown}>
-          <Link to="#/exhibitions">Exhibition</Link>
+          <Link to="/exhibitions">Exhibition</Link>
           {(showExhibitionDropdown || showAllDropdowns) && (
             <div className="dropdown-content">
               <Link to="/exhibitions/notime">No Time to Die</Link>
