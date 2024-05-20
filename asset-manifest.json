@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/Visu-web/static/css/main.f7c3d434.css",
-    "main.js": "/Visu-web/static/js/main.6ef9eb07.js",
+    "main.css": "/Visu-web/static/css/main.ab60fe7f.css",
+    "main.js": "/Visu-web/static/js/main.74b1c9e0.js",
     "static/media/JamesBondVideo.mp4": "/Visu-web/static/media/JamesBondVideo.489897b9a3d757001c5c.mp4",
     "static/media/popupimg.jpg": "/Visu-web/static/media/popupimg.a660a60c133101ce8077.jpg",
+    "static/media/file-elR9QzUzdhxzJETZbOTt7PR3.png": "/Visu-web/static/media/file-elR9QzUzdhxzJETZbOTt7PR3.1fd1ce2799534503b273.png",
     "static/media/BondBanner.jpg": "/Visu-web/static/media/BondBanner.ff5471ed3229c77d180b.jpg",
     "static/media/QOSposter.jpg": "/Visu-web/static/media/QOSposter.ba42e5d88dbee7d45a24.jpg",
     "static/media/triumph.jpg": "/Visu-web/static/media/triumph.0178f9e25bb21fd5c9e6.jpg",
@@ -30,11 +31,11 @@
     "static/media/aston_martin2.jpg": "/Visu-web/static/media/aston_martin2.70534c92c8f9318f714f.jpg",
     "static/media/AstonmartinLogo.jpg": "/Visu-web/static/media/AstonmartinLogo.35f53d24f63f62b1d2c2.jpg",
     "index.html": "/Visu-web/index.html",
-    "main.f7c3d434.css.map": "/Visu-web/static/css/main.f7c3d434.css.map",
-    "main.6ef9eb07.js.map": "/Visu-web/static/js/main.6ef9eb07.js.map"
+    "main.ab60fe7f.css.map": "/Visu-web/static/css/main.ab60fe7f.css.map",
+    "main.74b1c9e0.js.map": "/Visu-web/static/js/main.74b1c9e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7c3d434.css",
-    "static/js/main.6ef9eb07.js"
+    "static/css/main.ab60fe7f.css",
+    "static/js/main.74b1c9e0.js"
   ]
 }
