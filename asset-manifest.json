@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Visu-web/static/css/main.7fea4dc7.css",
+    "main.css": "/Visu-web/static/css/main.f7c3d434.css",
     "main.js": "/Visu-web/static/js/main.6ef9eb07.js",
     "static/media/JamesBondVideo.mp4": "/Visu-web/static/media/JamesBondVideo.489897b9a3d757001c5c.mp4",
     "static/media/popupimg.jpg": "/Visu-web/static/media/popupimg.a660a60c133101ce8077.jpg",
@@ -30,11 +30,11 @@
     "static/media/aston_martin2.jpg": "/Visu-web/static/media/aston_martin2.70534c92c8f9318f714f.jpg",
     "static/media/AstonmartinLogo.jpg": "/Visu-web/static/media/AstonmartinLogo.35f53d24f63f62b1d2c2.jpg",
     "index.html": "/Visu-web/index.html",
-    "main.7fea4dc7.css.map": "/Visu-web/static/css/main.7fea4dc7.css.map",
+    "main.f7c3d434.css.map": "/Visu-web/static/css/main.f7c3d434.css.map",
     "main.6ef9eb07.js.map": "/Visu-web/static/js/main.6ef9eb07.js.map"
   },
   "entrypoints": [
-    "static/css/main.7fea4dc7.css",
+    "static/css/main.f7c3d434.css",
     "static/js/main.6ef9eb07.js"
   ]
 }
