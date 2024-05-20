@@ -56,7 +56,7 @@ const Popup = ({ trigger, setTrigger, children }) => {
         <button className='close-btn' onClick={handleClose}><CloseIcon /></button>
         {children}
         {showPopup && (
-          <section className="main-section">
+          <section className="popup-section">
             <article className="article">
               <div className="content-column">
                 <header>

@@ -55,7 +55,9 @@
   display: inline-block;
   background-color: #007bff;
   width: 50%;
+  transform: translateX(-20%);
   color: #fff;
+  text-align: center;
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
@@ -64,11 +66,12 @@
 .exhibition-button {
   display: inline-block;
   background-color: #007bff;
-  color: white;
+  width: 50%;
+  color: #fff;
   padding: 10px 20px;
   text-decoration: none;
+  text-align: center;
   border-radius: 5px;
-  margin-top: 20px;
 }
 
 .mufasa-container1 {
