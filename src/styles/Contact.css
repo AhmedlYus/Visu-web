@@ -135,7 +135,7 @@ textarea.input {
   background-color: #0096FF;
   border: 2px solid #fafafa;
   font-size: 0.95rem;
-  color: #1abc9c;
+  color: black;
   line-height: 1;
   border-radius: 5px;
   outline: none;
@@ -146,7 +146,7 @@ textarea.input {
 }
 
 .btn:hover {
-  background-color: transparent;
+  background-color: black;
   color: #fff;
 }
 
