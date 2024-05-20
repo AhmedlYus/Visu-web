@@ -14,13 +14,16 @@ import BookingRental from './pages/BookingRental';
 import Contact from './pages/Contact';
 import About from './pages/About';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop.js';
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Navbar />
+        <ScrollToTop />
         <Routes>
+          
           <Route exact path="/" element={<Home />} />
           <Route path="/exhibitions" element={<Exhibitions />} />
           <Route path="/exhibitions/notime" element={<ExhibitionsNotime />} />
