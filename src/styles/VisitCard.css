@@ -5,14 +5,24 @@
     margin-bottom: 10%;
 }
 
+
 .Museumbox-container {
     display: flex;
     flex-direction: column;
     width: 100%;
     background-color: #312f2f;
     overflow: hidden;
-    margin-left: 5%;
-    margin-right: 5%;
+}
+@media (max-width: 1920px) {
+    .Museumbox-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #312f2f;
+        overflow: hidden;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
 @media (max-width: 768px) {
     .Museumbox-container {
