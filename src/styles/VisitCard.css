@@ -12,6 +12,8 @@
     width: 100%;
     background-color: #312f2f;
     overflow: hidden;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 @media (max-width: 1920px) {
     .Museumbox-container {
