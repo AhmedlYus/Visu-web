@@ -31,9 +31,9 @@
 }
 
 .welcomeButton {
-  background: #222831;
-  color: white;
-  padding: 8px 16px; 
+  background: white;
+  color: black;
+  padding: 8px 16px;
   text-align: center;
   text-decoration: none;
   width: 200px;
@@ -42,12 +42,17 @@
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .welcomeBox:hover .welcomeButton {
-  background: white !important;
+  cursor: pointer;
+  background: #f0f0f0; /* Slightly darker background on hover */
   color: black;
+  transform: translateX(-50%) scale(1.1); /* Pop-out effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
 }
+
 
 span.bigger {
   font-size: 24px;

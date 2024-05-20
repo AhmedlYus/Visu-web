@@ -76,13 +76,14 @@
   font-size: 16px; 
   border-radius: 5%;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.3s ease; /* Combine both transitions */
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .Fillers a button:hover {
-  background-color: #000000; /* Change background color on hover */
-  color: #ccc;
+  background-color: #f0f0f0; /* Change background color on hover */
+  color: black;
   transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Vertical line */

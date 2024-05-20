@@ -2,7 +2,7 @@
 
 import React from 'react'
 import CardBanners from '../components/testbanners';
-import noTimeBond from '../assets/NotimeBond.jpg';
+import ticketPicture from '../assets/file-elR9QzUzdhxzJETZbOTt7PR3.png';
 import logoAston from '../assets/AstonmartinLogo.jpg';
 
 function Booking() {
@@ -12,7 +12,7 @@ function Booking() {
       text: "Book museum tickets",
       exhibitionArea: "",
       bookNowLink: "/booking/tickets", // Updated link
-      image: noTimeBond,
+      image: ticketPicture,
       backgroundColor: "#088F8F",
     },
     {

@@ -162,7 +162,7 @@ const Home = () => {
           </div>
         </div>
         <div style={{ margin: '20px 0' }}></div>
-        <SignupBanner />
+        
         <div className='visit-header'>
           <h1>Collections</h1>
         </div>
